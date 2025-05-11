@@ -22,8 +22,8 @@ jobs:
 
     - name: Compile code
       run: |
-        python -m py_compile calculator.py
+        python -m py_compile calcuator.py
     
     - name: Run Calculator
       run: |
-        python calculator.py < 3.txt
+        python calcuator.py < 3.txt
