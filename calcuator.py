@@ -4,7 +4,7 @@ def penjumlahan(a, b):
 def pengurangan(a, b):
     return int(a - b)
 
-def perkalian(a, b):
+def perkaliann(a, b):
     return int(a * b)
 
 def pembagian(a, b):
@@ -16,7 +16,7 @@ def main():
     print("=== KALKULATOR SEDERHANA ===")
     print("1. Penjumlahan")
     print("2. Pengurangan")
-    print("3. Perkalian")
+    print("3. Perkaliann")
     print("4. Pembagian")
 
     pilihan = input("Pilih operasi (1/2/3/4): ")
@@ -34,7 +34,7 @@ def main():
         elif pilihan == "2":
             hasil = pengurangan(x, y)
         elif pilihan == "3":
-            hasil = perkalian(x, y)
+            hasil = perkaliann(x, y)
         elif pilihan == "4":
             hasil = pembagian(x, y)
 
