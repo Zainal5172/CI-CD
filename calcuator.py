@@ -4,10 +4,10 @@ def penjumlahan(a, b):
 def pengurangan(a, b):
     return int(a - b)
 
-def perkalian(a, b):
+def Pembagian(a, b):
     return int(a * b)
 
-def pembagian(a, b):
+def Perkalian(a, b):
     if b == 0:
         return "Error: Pembagian dengan nol tidak diperbolehkan"
     return int(a / b)
@@ -16,8 +16,8 @@ def main():
     print("=== KALKULATOR SEDERHANA ===")
     print("1. Penjumlahan")
     print("2. Pengurangan")
-    print("3. Perkalian")
-    print("4. Pembagian")
+    print("3. Pembagian")
+    print("4. Perkalian")
 
     pilihan = input("Pilih operasi (1/2/3/4): ")
 
@@ -34,9 +34,9 @@ def main():
         elif pilihan == "2":
             hasil = pengurangan(x, y)
         elif pilihan == "3":
-            hasil = perkalian(x, y)
+            hasil = Pembagian(x, y)
         elif pilihan == "4":
-            hasil = pembagian(x, y)
+            hasil = Perkalian(x, y)
 
         print(f"Hasil: {hasil}")
     else:
